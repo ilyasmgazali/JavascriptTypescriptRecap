@@ -1,4 +1,4 @@
-# example array destructuring
+# example array destructuring //destructuring, into a smaller list 
 ==============================
 colours = ['red', 'orange', 'blue', 'yellow', 'brown']
 
@@ -11,7 +11,7 @@ console.log(third);
 ============================
 colours = ['red', 'orange', 'blue', 'yellow', 'brown']
 
-let [first, second, third, ...rest] = colours
+let [first, second, third, ...rest] = colours //--------------- the "three dots" are the main thing, rest is a variable 
 console.log(rest);
 
 # further Reading:
