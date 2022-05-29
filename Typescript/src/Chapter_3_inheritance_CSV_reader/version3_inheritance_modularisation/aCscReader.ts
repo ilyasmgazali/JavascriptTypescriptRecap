@@ -1,4 +1,4 @@
-import { DataReader } from './Interface';
+import { DataReader } from './aInterface';
 import fs from 'fs';
 
 export class CsvReader implements DataReader{
@@ -15,5 +15,6 @@ export class CsvReader implements DataReader{
                 return row.split(',');
             }
         );
+        //console.log();
     }
 }
