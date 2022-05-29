@@ -6,7 +6,7 @@ export class CsvReader{//inheritance class //if it is abstract cant create an in
     }
     read (filename:string):any[]{
         return fs
-            .readFileSync('./Typescript/src/CSV_FILM_Reader_Exercise/films.csv', {encoding: 'utf-8'})
+            .readFileSync(this.filename, {encoding: 'utf-8'})
             .split('\n')
             .map( (row:string): string[] =>{
                 return row.split(',');

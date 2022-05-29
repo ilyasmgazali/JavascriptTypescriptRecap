@@ -3,6 +3,7 @@ import {CsvReader} from './CsvReader1';
 
 //cant create an instance of a class if abstract/ :. error
 const readerVar  = new CsvReader('/Typescript/src/CSV_FILM_Reader_Exercise/films.csv');
+//const readerVar  = new CsvReader('films.csv');
 
 let count:number = 0; // loop level scope
 let actor: string = 'Nicolas Cage';
