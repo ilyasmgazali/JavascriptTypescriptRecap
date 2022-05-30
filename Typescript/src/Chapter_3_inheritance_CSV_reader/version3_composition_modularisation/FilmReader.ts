@@ -14,7 +14,8 @@ export class FilmReader{
         this.films = this.reader.data
         .map(
             (col:string[]): FilmData => {
-                return  [col[0], parseInt(col[1]), col[2], parseDate(col[3]), col[4]];
+                //console.log (col[0], col[1], col[2], col[3], col[4]); 
+                return  [col[0], parseInt(col[1]), col[3], parseDate(col[2]), col[4]];
             }
         )
     }

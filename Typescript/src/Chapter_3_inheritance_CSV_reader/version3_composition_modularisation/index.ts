@@ -27,6 +27,7 @@ let analyserHTML = new HtmlReports(); //put the items from above in there
 analyserHTML.print(analyser.run('Bruce Willis')); //rather than accessing films above
 */
 
+/*
 //MAKE EASIER WITH STATIC METHOD BELOW
 let filmReader = FilmReader.fromCsv('./Typescript/src/CSV_FILM_Reader_Exercise/films.csv');
 //let analyser = new FilmCountAnalyser(filmReader.films); // replaced with below
@@ -35,12 +36,11 @@ let reporter =  new Reporter(
     new FilmCountAnalyser(filmReader.films)
 );
 reporter.run('Bruce Willis');
+*/
 
-/**
 //simplified from above
 let filmReader = FilmReader.fromCsv('./Typescript/src/CSV_FILM_Reader_Exercise/films.csv');
 let reporter = Reporter.consoleReporterFilmsCount(filmReader.films);
 let reporter2 = Reporter.htmlReporterFilmsCount(filmReader.films);
 reporter.run('Bruce Willis');
 reporter2.run('Bruce Willis');
-*/
