@@ -8,7 +8,7 @@ export class CsvReader implements DataReader{
     }
     read(filename:string):void{
         this.data = fs
-        .readFileSync(this.filename, {encoding: 'utf8' })
+        .readFileSync(this.filename,  {encoding: 'utf-8'})
         .split('\n')
         .map( 
             (row: string): string[] => {
