@@ -2,11 +2,11 @@
 ==============
 When ... appears on the left-hand side of an assignment, those three dots are known as the rest operator.
 
-const [a, b, ...rest] = [0, 1, 1, 2, 3, 5];
+const [a, b, ...rest] = [0, 1, 1, 2, 3, 5]; //concation
 
 # rest has to be the last item
 ==============================
-const [...rest, a, b] = [0, 1, 1, 2, 3, 5];
+const [...rest, a, b] = [0, 1, 1, 2, 3, 5]; //concatination
 
 # rest works with properties too
 # we have to match the key e.g student //-----------------------have to match the first variable

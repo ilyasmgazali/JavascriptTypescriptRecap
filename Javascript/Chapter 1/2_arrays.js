@@ -24,7 +24,7 @@ names.push('Janet');
 =========================
 let names = ['Ryan', 'Eric', 'Stephen', 'Laura'];
 delete names[1];
-names.splice(0,1); //input is (index, how many to delete)
+names.splice(0,1); //input is (index, how many to delete) - better way to do it
 
 # further reading
 

@@ -13,19 +13,25 @@ console.log(name);
 let obj = { greeting: 'hello world' };
 console.log(obj.doesNotExist); //---------- does not have property/key/value "doesNotExist"
 
-# check if null or undefined
+# check if null or undefined //this 
 ============================
 let amount = null;
+//
 
 if (amount == null || amount == undefined) {
   console.log('I am null or undefined');
-}
+} //can be commented out to extend if statement, to the same as the nullish operation below
+//} else {
+//  console.log(aniybt)
+//}
+// - if else, is same as below, the nullish operator can replace code above
+
 
 # checking for null or undefined
-# nullish operator
+# nullish operator //short and concise
 ===================
 let amount = null;
-amount ?? 'no value given'; //-------- does not permanently change value
+console.log (  amount ?? 'no value given'  ); //-------- does not permanently change value //  ?? means null or identified, NULLISH OPERATOR
 
 # further reading
 =================

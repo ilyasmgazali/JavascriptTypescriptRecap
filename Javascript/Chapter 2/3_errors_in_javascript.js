@@ -1,13 +1,13 @@
 # type error
 ============
-[].length()
+[].length() //property as a function, rather than property
 
-# syntax error
+# syntax error //just wrong syntaz
 ==============
 console.log('hello)
 
 # reference error
-console.log(doesNotExist)
+console.log(doesNotExist) //calling somethign that does not exist
 
 # manually throwing errors
 ==========================
@@ -20,7 +20,9 @@ if(typeof name !== 'string') { //------------------ typeof
   console.log(`My name is ${name}`);
 }
 
-# catching errors //--------------------------------- try catch,this is a custom error
+# catching errors //--------------------------------- try catch,this is a custom error, displayed to terminal log, 
+name = 9
+name = 'Ilyas'
 =================
 try {
   if (typeof name !== 'string') {

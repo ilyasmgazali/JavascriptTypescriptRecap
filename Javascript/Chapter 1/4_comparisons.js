@@ -18,7 +18,7 @@
 # not equal to
 
 ==============
-2 !== 2;
+2 !== 2; 
 
 # less than or equal to
 

@@ -18,7 +18,7 @@ class Vehicle {
 
 class ElectricVehicle extends Vehicle {
   constructor(brand, model) {
-    super(brand, model) //---------------------------- super is like this, but for above
+    super(brand, model) //---------------------------- super is like this, but for above/child class
     this.battery_size = 80
   }
 

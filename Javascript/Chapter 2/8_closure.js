@@ -1,12 +1,14 @@
 # global scope
 =============
-const age = 45;
+const age = 45; //const has better scope
 
 function doubleAge() {
   return age * 2;
 }
 
 console.log(doubleAge());
+
+
 
 # local scope
 ==============

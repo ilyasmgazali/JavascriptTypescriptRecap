@@ -4,7 +4,7 @@ When ... appears on the right-hand side of an assignment, it's known as the spre
 -------------------
 const oneToFive = [1, 2, 3, 4, 5];
 const oneToTen = [...oneToFive, 6, 7, 8, 9, 10];
-console.log(oneToTen); //-------------------------spreads additions
+console.log(oneToTen); //-------------------------spreads additional content
 
 # spread property
 =================
